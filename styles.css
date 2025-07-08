@@ -6,11 +6,20 @@
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* ### GENERAL STYLING ### */
 
 h1 {
   margin-top: 4rem;
   text-align: center;
+}
+
+button img {
+  margin-inline: auto;
 }
 
 /* ## CALCULATOR ## */
@@ -32,6 +41,11 @@ h1 {
   border: 2px solid #4ba2e6;
   border-radius: 1rem;
   margin-bottom: 1.5rem;
+  font-size: 2.125rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0.3rem 0.6rem;
 }
 
 /* ## PANEL ## */
