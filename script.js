@@ -156,3 +156,13 @@ function handleCalc(e, inputValue) {
     }
   }
 }
+
+buttons.forEach((element) => {
+  element.addEventListener("click", (e) => {
+    handleCalc(e, e.target.innerText);
+  });
+});
+
+window.addEventListener("keydown", (e) => {
+  handleCalc(e, e.key);
+});
